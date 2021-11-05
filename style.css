@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#app{
+    width: 400px;
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    padding: 10px;
+    width: 100%;
+}
+ .second{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+span{
+    margin: auto 5px;
+    font-size: 25px;
+}
+select{
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+
+}
+p{
+    font-size: 20px;
+}
