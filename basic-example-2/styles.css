@@ -53,30 +53,4 @@ h4{
   margin: 0;
 }
 
-#user-goal input {
-  font: inherit;
-  border: 1px solid #ccc;
-}
 
-#user-goal input:focus {
-  outline: none;
-  border-color: #1b995e;
-  background-color: #d7fdeb;
-}
-
-#user-goal button {
-  font: inherit;
-  cursor: pointer;
-  border: 1px solid #ff0077;
-  background-color: #ff0077;
-  color: white;
-  padding: 0.05rem 1rem;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
-}
-
-#user-goal button:hover,
-#user-goal button:active {
-  background-color: #ec3169;
-  border-color: #ec3169;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
-}
